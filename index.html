@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>basic_calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <h1 style="text-align: center; color: purple">Calculator</h1>
+    <script type="text/javascript">
+    function calcuNum(result) {
+        form.displayResult.value=form.displayResult.value+result;
+    }
+    </script>
+    <div class="container">
+        <form name="form">
+            <div class="display">
+                <input type="text" name="displayResult" placeholder="0">
+            </div>
+            <div class="buttons">
+                <div class="row">
+                    <input type="button" name="b7" value="7" onclick="calcuNum(b7.value)">
+                    <input type="button" name="b8" value="8" onclick="calcuNum(b8.value)">
+                    <input type="button" name="b9" value="9" onclick="calcuNum(b9.value)">
+                    <input type="button" name="mulb" value="*" onclick="calcuNum(mulb.value)">
+                </div>
+                <div class="row">
+                    <input type="button" name="b4" value="4" onclick="calcuNum(b4.value)">
+                    <input type="button" name="b5" value="5" onclick="calcuNum(b5.value)">
+                    <input type="button" name="b6" value="6" onclick="calcuNum(b6.value)">
+                    <input type="button" name="addb" value="+" onclick="calcuNum(addb.value)">
+                </div>
+                <div>
+                    <input type="button" name="b1" value="1" onclick="calcuNum(b1.value)">
+                    <input type="button" name="b2" value="2" onclick="calcuNum(b2.value)">
+                    <input type="button" name="b3" value="3" onclick="calcuNum(b3.value)">
+                    <input type="button" name="subb" value="-" onclick="calcuNum(subb.value)">
+                </div>
+                    <input type="button" name="b0" value="0" onclick="calcuNum(b0.value)">
+                    <input type="button" name="potb" value="." onclick="calcuNum(potb.value)">
+                    <input type="button" name="divb" value="/" onclick="calcuNum(divb.value)">
+                    <input type="button" name="blue" value="=" onclick="displayResult.value=eval(displayResult.value)">
+            </div>
+        </form>               
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html>
